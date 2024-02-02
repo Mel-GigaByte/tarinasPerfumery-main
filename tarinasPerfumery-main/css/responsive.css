@@ -1,0 +1,608 @@
+@media (max-width: 280px) {
+    .navbar-collapse {
+        position: absolute;
+        background-color: #002535;
+        top: 94%;
+        width: 70%;
+        text-align: center;
+        z-index: 99999;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        left: 36%;
+    }
+    .btn-primary.gold {
+        padding: 0px!important;
+    }
+    .home-header .handcrafted {
+        font-size: 39px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 8%!important;
+        bottom: 60%;
+    }
+    .nav-item.header-icons {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .perfume-range {
+        width: 40%;
+    }
+    .header .navbar-nav .nav-item .nav-link {
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #fff;
+        font-size: 15px;
+    }
+    .btn-primary.gold {
+        padding: 5px;
+        width: 78%!important;
+        position: relative;
+        left: 13%!important;
+    }
+    .brown {
+        padding: 6px;
+    }
+    .h1, h1 {
+        font-size: 33px!important;
+    }
+    .perfume-range {
+        width: 100%!important;
+        float: none;
+        margin: 9% 0;
+    }
+    .perfume-bars p {
+        color: #23464b;
+        margin-bottom: 0;
+        padding: 9% 0 9%!important;
+    }
+    .exclusive-collections h5 {
+        font-size: 15px!important;
+    }
+    .reviews {
+        padding: 5% 0 24%!important;
+    }
+    .faqs .h1 {
+        margin-bottom: 0!important;
+        padding: 9% 0!important;
+    }
+    .modal-content {
+        width: 100%!important;
+    }
+}
+
+@media (min-width: 281px ) and ( max-width: 320px)  {
+    .navbar-collapse {
+        position:absolute;
+        background-color: #fff;
+        top: 29px;
+        width: 100%;
+        text-align: center;
+        z-index: 99999;
+        padding-bottom: 20px;
+        margin-top: 20px
+    }
+
+    .nav-item.header-icons {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+
+@media (min-width: 321px) and (max-width:375px) {
+    .navbar-collapse {
+        position: absolute;
+        background-color: #002535;
+        top: 94%;
+        width: 70%;
+        text-align: center;
+        z-index: 99999;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        left: 34%;
+    }
+
+    .nav-item.header-icons {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+   
+}
+
+@media (min-width: 376px) and (max-width:767px) {
+    .navbar-collapse {
+        position: absolute;
+        background-color: #002535;
+        top: 94%;
+        width: 70%;
+        text-align: center;
+        z-index: 99999;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        left: 34%;
+    }
+
+    .nav-item.header-icons {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+   
+}
+
+@media (max-width: 767px) {
+    .row-cols-5>* {
+        -ms-flex:0 0 20%;
+        flex: 100%;
+        max-width: 50%
+    }
+    .reviews {
+        padding: 3% 0 17%;
+    }
+    
+    .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .home-header .handcrafted {
+        font-size: 39px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 13%;
+        bottom: 60%;
+    }
+    .header .navbar-nav .nav-item .nav-link {
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #fff;
+        font-size:15px;
+    }
+    .header .navbar-light .navbar-nav .active>.nav-link, .header .navbar-light .navbar-nav .nav-link.active, .header .navbar-light .navbar-nav .nav-link.show, .header .navbar-light .navbar-nav .show>.nav-link {
+        color: #fff;;
+        padding-bottom: 0!important;
+        font-size:15px;
+        padding-top: 0;
+    }
+    .btn-primary.gold {
+        padding: 5px!important;
+        width: 58%;
+        position: relative;
+        left: 22%;
+        font-size:15px;
+    }
+    .inspired .card {
+        width: auto!important;
+    }
+
+    .header .logo a {
+        display: none
+    }
+
+    .product-info {
+        margin-top: 40px
+    }
+
+    .home-header {
+        background-image: url(/images/home-page/mobile-header.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .nav-link {
+        padding-left: 0;
+        padding-bottom: 15px
+    }
+    .navbar-toggler i {
+        color:#fff;
+    }
+    .nav-item i {
+        margin-right: 8px
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    .small-header {
+        display: none
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-top: 15px
+    }
+
+    .navbar.navbar-expand-lg.navbar-light {
+        padding-left: 0
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link {
+        padding-top: 15px;
+        padding-bottom: 15px!important
+    }
+
+    .header .nav-item {
+        padding-right: 0;
+        color:#000!important;
+    }
+
+    .mobi-logo {
+        padding: 0
+    }
+
+    .mobi-logo img {
+        width: 70%;
+    }
+    .explore {
+        position: absolute;
+        left: 26%;
+        top: 55%;
+        right: 26%;
+        background-color: #c19054;
+        border-color: #c19054;
+        border-radius: 50px;
+        width: 50%;
+    }
+    .welcome h2 {
+        color: #fff;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        padding: 9% 0;
+    }
+    .range {
+        width: 80%;
+        margin-top: 0;
+    }
+    .perfume-range {
+        width: auto;
+        float: none;
+        margin: 9% 0;
+    }
+    .perfume-bars p {
+        color: #23464b;
+        margin-bottom: 0;
+        padding: 9% 0;
+    }
+    .perfume-bars h3 {
+        margin-bottom: 0;
+        padding: 7% 0;
+        margin-top: 0!important;
+    }
+    .exclusive-collections h5 {
+        font-size: 15px;
+    }
+    .ambassador-img {
+        margin-top: 9%;
+    }
+    .reviews h1 {
+        text-transform: uppercase;
+    }
+    .h1, h1 {
+        font-size: 29px;
+    }
+    .modal-content {
+        width: 76%;
+    }
+    .list-group, .contact-list-group {
+        text-align: center;
+    }
+    .contact {
+        padding: 10% 0 0;
+        background-color: #23464b;
+    }
+    .contact-list-group {
+        padding: 5% 0 10%;
+        text-align: center;
+    }
+    .home-header h1 {
+        font-size: 35px
+    }
+    .signiture-range h2 {
+        margin-top: 10%;
+    }
+    .bg-image {
+        background-size: 31vh;
+        background-position: center left 44%
+    }
+
+
+    .home-header p br {
+        display: none
+    }
+
+
+    .h2,h2 {
+        font-size: 22px
+    }
+
+    .h3,h3 {
+        font-size: 25px
+    }
+
+
+    .dropdown-toggle i {
+        left: 83%
+    }
+
+    .carousel-control-next,.carousel-control-prev {
+        width: 91%;
+        top: 105%
+    }
+
+    .contact .col-md-12 {
+        padding-bottom: 20px
+    }
+
+    .contact .mt-5 {
+        margin-top: 19px!important
+    }
+
+    .contact .mb-4,.my-4 {
+        margin-bottom: 10px!important
+    }
+
+    .contact h5 {
+        font-size: 20px!important
+    }
+
+    .copyright {
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 2%
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .row-cols-5>* {
+        -ms-flex:0 0 20%;
+        flex: 100%;
+        max-width: 50%
+    }
+
+    .h1,h1 {
+        font-size: 40px
+    }
+    .home-header .handcrafted {
+        font-size: 60px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 21%;
+        bottom: 65%;
+    }
+    .explore {
+        position: absolute;
+        left: 36%;
+        top: 60%;
+        right: 0;
+        background-color: #c19054;
+        border-color: #c19054;
+        border-radius: 50px;
+        width: 26%;
+    }
+    .navbar-collapse {
+        position: absolute;
+        background-color: #002535;
+        top: 94%;
+        width: 30%;
+        text-align: center;
+        z-index: 99999;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        left: 72%;
+    }
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: none;
+        text-align: right
+    }
+    .header .navbar-light .navbar-nav .active>.nav-link, .header .navbar-light .navbar-nav .nav-link.active, .header .navbar-light .navbar-nav .nav-link.show, .header .navbar-light .navbar-nav .show>.nav-link {
+        color: #fff;
+    }
+    .logo a {
+        display: none
+    }
+    .btn-primary.gold {
+        padding: 5px;
+        width: 67%;
+        position: relative;
+        left: 17%;
+    }
+    .mobi-logo img {
+        width: 100%;
+    }
+    .nav-link {
+        padding-left: 0;
+        padding-bottom: 15px
+    }
+
+    .product-info {
+        margin-top: 40px
+    }
+
+    .header .navbar-nav .nav-item .nav-link {
+        padding-top: 0;
+        color: #fff;
+    }
+    .inspired .card {
+        width: auto!important;
+    }
+    .perfume-range {
+        width: auto;
+        margin-top: 5%;
+        float: none;
+    }
+    .carousel-item .card {
+        width:100%!important;
+    }
+    .carousel-item .col-md-3 {
+        padding-left:0;
+    }
+   
+    .carousel-control-next, .carousel-control-prev {
+        top: 105%;
+    }
+    .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #221f1f;
+        padding-top: 15px
+    }
+
+    .nav-item.header-icons {
+        padding-top: 15px
+    }
+
+    .header .nav-item {
+        padding-right: 0
+    }
+
+    .nav-link {
+        padding-left: 0;
+        padding-bottom: 15px
+    }
+
+    .nav-item i {
+        margin-right: 8px
+    }
+
+    .h2,h2 {
+        font-size: 29px
+    }
+
+
+    .carousel-control-next,.carousel-control-prev {
+        width: 91%
+    }
+
+    .contact .col-md-12 {
+        padding-bottom: 20px
+    }
+
+    .contact .mt-5 {
+        margin-top: 19px!important
+    }
+
+    .contact .mb-4,.my-4 {
+        margin-bottom: 10px!important
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .copyright {
+        text-align: center
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .header .nav-item {
+        padding-right:34px
+    }
+    .logo a,.mobi-logo a {
+        font-size: 29px
+    }
+    .btn-primary.gold {
+        padding: 10px 17px;
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .h1,h1 {
+        font-size: 50px
+    }
+
+    .carousel-item .card {
+        width:100%!important;
+    }
+    .reviews .card {
+        min-height: auto;
+    }
+    .carousel-item .col-md-3 {
+        padding-left:0;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 105%;
+    }
+    .home-header .handcrafted {
+        font-size: 80px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 22%;
+        bottom: 50%;
+    }
+    .explore {
+        position: absolute;
+        left: 41%;
+        top: 60%;
+        right: 0;
+        background-color: #c19054;
+        border-color: #c19054;
+        border-radius: 50px;
+        width: 16%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1600px) {
+    .h1,h1 {
+        font-size:55px
+    }
+    .home-header .handcrafted {
+        font-size: 80px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 27%;
+        bottom: 50%;
+    }
+
+}
+
+@media (min-width: 1391px) and (max-width:1439px),(min-height:300px) and (max-height:650px) and (orientation:landscape) {
+
+
+}
+
+@media (min-width: 1400px) and (max-width:1600px) {
+
+    .reviews .card {
+        min-height: 50vh;
+    }
+    .home-header .handcrafted {
+        font-size: 80px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 29%!important;
+        bottom: 50%;
+    }
+}
+/* @media (min-width: 1601px) and (max-width:2560px) {
+
+    .home-header .handcrafted {
+        font-size: 100px;
+        margin-top: 30px;
+        font-family: 'Fleur De Leah', cursive;
+        color: #002535;
+        position: absolute;
+        left: 35%;
+        bottom: 50%;
+    }
+} */
