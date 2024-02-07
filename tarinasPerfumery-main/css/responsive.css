@@ -7,7 +7,6 @@
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px;
         left: 36%;
     }
     .btn-primary.gold {
@@ -37,9 +36,12 @@
     }
     .btn-primary.gold {
         padding: 5px;
-        width: 78%!important;
+        width: 70%!important;
         position: relative;
         left: 13%!important;
+    }
+    .mobi-logo img {
+        width: 70%;
     }
     .brown {
         padding: 6px;
@@ -94,13 +96,13 @@
     .navbar-collapse {
         position: absolute;
         background-color: #002535;
-        top: 94%;
+        top: 73%;
         width: 70%;
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px;
-        left: 34%;
+        margin-top: 17px;
+        left: 31%;
     }
 
     .nav-item.header-icons {
@@ -114,13 +116,13 @@
     .navbar-collapse {
         position: absolute;
         background-color: #002535;
-        top: 94%;
+        top: 73%!important;
         width: 70%;
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px;
-        left: 34%;
+        margin-top: 18px;
+        left: 32%;
     }
 
     .nav-item.header-icons {
@@ -139,7 +141,13 @@
     .reviews {
         padding: 3% 0 17%;
     }
-    
+    .about {
+        padding: 3% 0 10% 0;
+    }
+    .faqs .h1 {
+        margin-bottom:0;
+        padding: 3%;
+    }
     .nav-item {
         padding-top: 15px;
         padding-bottom: 15px
@@ -211,9 +219,9 @@
         padding-top: 15px
     }
 
-    .navbar.navbar-expand-lg.navbar-light {
+    /* .navbar.navbar-expand-lg.navbar-light {
         padding-left: 0
-    }
+    } */
 
     .navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link {
         padding-top: 15px;
@@ -230,7 +238,7 @@
     }
 
     .mobi-logo img {
-        width: 70%;
+        width: 45%;
     }
     .explore {
         position: absolute;
@@ -280,9 +288,7 @@
     .h1, h1 {
         font-size: 29px;
     }
-    .modal-content {
-        width: 76%;
-    }
+ 
     .list-group, .contact-list-group {
         text-align: center;
     }
@@ -381,17 +387,17 @@
         border-radius: 50px;
         width: 26%;
     }
-    .navbar-collapse {
-        position: absolute;
-        background-color: #002535;
-        top: 94%;
-        width: 30%;
-        text-align: center;
-        z-index: 99999;
-        padding-bottom: 20px;
-        margin-top: 20px;
-        left: 72%;
-    }
+ .navbar-collapse {
+     position: absolute;
+     background-color: #002535;
+     top: 76%;
+     width: 30%;
+     text-align: center;
+     z-index: 99999;
+     padding-bottom: 20px;
+     margin-top: 20px;
+     left: 73%;
+ }
     .navbar-light .navbar-toggler {
         color: #000;
         border: none;
@@ -408,6 +414,8 @@
         width: 67%;
         position: relative;
         left: 17%;
+        line-height: normal;
+        height: 40px;
     }
     .mobi-logo img {
         width: 100%;
@@ -513,6 +521,9 @@
         width: 100%;
         position: relative;
         left: 0;
+        height: 61px;
+        line-height: 2;
+        margin-top: 3px;
     }
     .navbar-expand-lg {
         -ms-flex-flow: row nowrap;
@@ -524,7 +535,9 @@
     .h1,h1 {
         font-size: 50px
     }
-
+    .header {
+        padding: 15px 0;
+    }
     .carousel-item .card {
         width:100%!important;
     }

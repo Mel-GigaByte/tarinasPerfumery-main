@@ -22,20 +22,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
-}
-@font-face {
-    src: url(../fonts/Alta_caption.otf);
-    font-family: Alta-caption,sans-serif;
-}
-
-@font-face {
-    src: url(../fonts/Alta_light.otf);
-    font-family: Alta-light,sans-serif;
-}
-
-@font-face {
-    src: url(../fonts/Alta_regular.otf);
-    font-family: Alta-regular,sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 img {
@@ -50,22 +37,22 @@ img {
 
 .h1,h1 {
     font-size: 48px;
-    font-family: alta-regular
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 .h2,h2 {
     font-size: 40px;
-    font-family: alta-regular
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 .h3,h3 {
     font-size: 30px;
-    font-family: alta-regular
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 .h4,h4 {
     font-size: 27px;
-    font-family: alta-regular
+    font-family: 'Tenor Sans', sans-serif;
 }
 h5,.h5 {
     font-family: 'Montserrat', sans-serif;
@@ -122,11 +109,12 @@ button:focus {
     border: 1px solid #c19054;
     border-radius: 62px;
     vertical-align: middle;
-    padding:10px 15px;
     font-size: 20px;
-    color: #ffffff!important;
+    color: #ffffff !important;
+    height: 43px;
     line-height: 2;
-
+    margin-top: 10px;
+    padding: 0 27px 0;
 }
 .btn-primary.gold:hover {
     color: #fff!important;
@@ -181,7 +169,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 header {
     background-color: #002535;
-    padding: 15px;
+    padding: 5px;
 }
 .card-header {
     padding: 15px;
@@ -369,7 +357,7 @@ header {
 }
 
 .logo img {
-    width: 30%
+    width: 35%;
 }
 
 .welcome {
