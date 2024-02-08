@@ -7,7 +7,6 @@
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px;
         left: 36%;
     }
 
@@ -42,10 +41,12 @@
     }
 
     .btn-primary.gold {
-        padding: 5px;
-        width: 78% !important;
+        width: 70% !important;
         position: relative;
         left: 13% !important;
+    }
+    .mobi-logo img {
+        width: 70%;
     }
 
     .brown {
@@ -90,13 +91,14 @@
 @media (min-width: 281px) and (max-width: 320px) {
     .navbar-collapse {
         position: absolute;
-        background-color: #fff;
-        top: 29px;
-        width: 100%;
+        background-color:#002535;
+        top: 73%;
+        left: 31%;
+        width: 70%;
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px
+        margin-top: 17px
     }
 
     .nav-item.header-icons {
@@ -109,13 +111,13 @@
     .navbar-collapse {
         position: absolute;
         background-color: #002535;
-        top: 94%;
+        top: 73%;
         width: 70%;
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px;
-        left: 34%;
+        margin-top: 17px;
+        left: 31%;
     }
 
     .nav-item.header-icons {
@@ -129,19 +131,20 @@
     .navbar-collapse {
         position: absolute;
         background-color: #002535;
-        top: 94%;
+        top: 73% !important;
         width: 70%;
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 20px;
-        left: 34%;
+        margin-top: 18px;
+        left: 32%;
     }
 
     .nav-item.header-icons {
         padding-top: 15px;
         padding-bottom: 15px
     }
+   
 
 }
 
@@ -155,7 +158,14 @@
     .reviews {
         padding: 3% 0 17%;
     }
+    .about {
+        padding: 3% 0 10% 0;
+    }
 
+    .faqs .h1 {
+        margin-bottom: 0;
+        padding: 3%;
+    }
     .nav-item {
         padding-top: 15px;
         padding-bottom: 15px
@@ -262,7 +272,7 @@
     }
 
     .mobi-logo img {
-        width: 70%;
+        width: 45%;
     }
 
     .explore {
@@ -443,13 +453,13 @@
     .navbar-collapse {
         position: absolute;
         background-color: #002535;
-        top: 94%;
+        top: 76%;
         width: 30%;
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
         margin-top: 20px;
-        left: 72%;
+        left: 73%;
     }
 
     .navbar-light .navbar-toggler {
@@ -474,6 +484,8 @@
         width: 67%;
         position: relative;
         left: 17%;
+        line-height: normal;
+        height: 40px;
     }
 
     .mobi-logo img {
@@ -607,7 +619,9 @@
     h1 {
         font-size: 50px
     }
-
+    .header {
+        padding: 15px 0;
+    }
     .carousel-item .card {
         width: 100% !important;
     }
@@ -649,9 +663,9 @@
 
 @media (min-width: 1200px) and (max-width:1600px) {
 
-    .h1,
+.h1,
     h1 {
-        font-size: 55px
+        font-size: 45px;
     }
 
     .home-header .handcrafted {
