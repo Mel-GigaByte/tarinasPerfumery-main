@@ -515,12 +515,12 @@ header {
 
 .contact li,
 .contact p {
-    color: #233619
+    color: #fff;
 }
 
 .contact .list-unstyled a,
 .contact .list-unstyled p {
-    color: #233619;
+    color: #fff;
     font-weight: 700
 }
 
