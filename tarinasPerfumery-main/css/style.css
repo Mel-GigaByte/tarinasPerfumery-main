@@ -203,7 +203,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 header {
-    background-color: #002535;
+    background-color: #002535!important;
 }
 
 .card-header {
@@ -319,9 +319,12 @@ header {
 .list-group a,
 .contact-list-group a,
 .contact-list-group i {
-    color: #fff
+    color: #fff!important
 }
-
+.contact-list-group img {
+    margin-right: 15px;
+    width: auto;
+}
 .list-group a:hover,
 .contact-list-group a:hover {
     text-decoration: none;
@@ -739,7 +742,9 @@ header {
 .questions {
     padding: 3% 0;
 }
-
+.questions span {
+    color:##000;
+}
 .questions .faq-box {
     border: none;
     padding: 3%;

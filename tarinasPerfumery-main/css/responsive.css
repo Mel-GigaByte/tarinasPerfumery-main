@@ -639,15 +639,6 @@
         top: 105%;
     }
 
-    .home-header .handcrafted {
-        font-size: 80px;
-        margin-top: 30px;
-        font-family: 'Fleur De Leah', cursive;
-        color: #002535;
-        position: absolute;
-        left: 22%;
-        bottom: 50%;
-    }
 
     .explore {
         position: absolute;
@@ -666,16 +657,6 @@
 .h1,
     h1 {
         font-size: 45px;
-    }
-
-    .home-header .handcrafted {
-        font-size: 80px;
-        margin-top: 30px;
-        font-family: 'Fleur De Leah', cursive;
-        color: #002535;
-        position: absolute;
-        left: 27%;
-        bottom: 50%;
     }
 
 }
