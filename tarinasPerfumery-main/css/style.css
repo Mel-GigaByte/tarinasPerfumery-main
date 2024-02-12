@@ -245,12 +245,6 @@ header {
     box-shadow: none
 }
 
-.dark-grn:hover {
-    color: #374a24;
-    background-color: #fff;
-    border: 1px solid #374a24
-}
-
 .btn-primary.dark-grn:not(:disabled):not(.disabled).active,
 .btn-primary.dark-grn:not(:disabled):not(.disabled):active {
     color: #fff !important;
@@ -294,7 +288,25 @@ header {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
 }
-
+.ButtonBase__Overlay-sc-p43e7i-4 {
+    background-color: #23464b!important;
+    color: #fff!important;
+    font-size: 15px!important;
+    border-color: #9ac7b3!important;
+}
+.TextControlBase__TextControlBaseContainer-sc-1s66zih-0.bBKQWp.FieldContainer__FieldLayout-sc-gwguj-0 jrogik {
+    padding: 10px 15px;
+    border-width: 1px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    border-color: #000!important;
+    background: #fff!important;
+    color: rgb(17, 17, 17)!important;
+    opacity: 1;
+}
 .light-grn {
     background-color: #23464b;
     color: #fff;
@@ -329,7 +341,7 @@ header {
 .contact-list-group a:hover {
     text-decoration: none;
     color: inherit;
-    color: #9ac7b3 !important;
+    color: #b78348 !important;
 }
 
 .form-control::placeholder {
@@ -743,7 +755,7 @@ header {
     padding: 3% 0;
 }
 .questions span {
-    color:##000;
+    color:#000;
 }
 .questions .faq-box {
     border: none;
@@ -845,7 +857,7 @@ textarea.form-control {
 
 .carousel-control-next,
 .carousel-control-prev {
-    top: 116%;
+    top: 110%;
     width: 96%;
     color: #fff
 }
@@ -932,7 +944,7 @@ textarea.form-control {
 }
 
 .footer a:hover {
-    color: #002535
+    color: #b78348;
 }
 
 .error-page .row {
