@@ -311,9 +311,46 @@ header {
     background-color: #23464b;
     color: #fff;
     font-size: 15px;
-    border-color: #9ac7b3;
+    border-color: #23464b;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
+.light-grn.focus,
+.light-grn:focus {
+    color: #9ac7b3;
+    background-color: transparent;
+    border-color: #9ac7b3;
+    box-shadow: none;
+}
+.ButtonBase__Ellipsis-sc-p43e7i-5.dqiKFy {
+    padding-bottom: 0 !important;
+}
+.ButtonBase__Overlay-sc-p43e7i-4 {
+    border: none !important;
+}
+.ButtonBase__ButtonContainer-sc-p43e7i-3.euBiGU {
+    border-radius: 4px;
+    border-color: #23464b !important;
+    color: #23464b !important;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    background-color: #23464b !important;
+    border-width: 2px;
+}
+.TextControlBase__TextControlBasePlaceholder-sc-1s66zih-8.CWjVC {
+    color: #fff !important
+}
+.TextControlBase__TextControlBaseContainer-sc-1s66zih-0.bBKQWp.FieldContainer__FieldLayout-sc-gwguj-0.jrogik {
+    border-color: #fff !important;
+    color: #fff !important;
 
+}
+.FormFieldLayout__Label-sc-1m85c11-0.kfdAml {
+    color: #fff !important;
+    text-transform: uppercase !important;
+}
 .btn-primary:hover {
     color: #fff;
     background-color: #23464b;
@@ -487,7 +524,9 @@ header {
     padding-bottom: 10px;
     border-bottom: 3px solid #ced4da
 }
-
+.contact span {
+    border-bottom: none !important;
+}
 .range {
     margin-top: 17%;
 }
@@ -831,7 +870,18 @@ header {
 textarea.form-control {
     padding-bottom: 17%
 }
-
+label {
+    margin-bottom: 0;
+    padding: 12px 0;
+}
+.control .input {
+    width: 100%;
+    height: 5vh;
+}
+.textarea {
+    width: 100%;
+    height: 10vh;
+ }
 .form-control:focus {
     color: #495057;
     background-color: #fff;

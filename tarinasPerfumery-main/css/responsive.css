@@ -108,7 +108,7 @@
 }
 
 @media (min-width: 321px) and (max-width:375px) {
-    .navbar-collapse {
+.navbar-collapse {
         position: absolute;
         background-color: #002535;
         top: 73%;
@@ -116,8 +116,8 @@
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 17px;
-        left: 31%;
+        /* margin-top: 17px; */
+        left: 30%;
     }
 
     .nav-item.header-icons {
@@ -136,7 +136,7 @@
         text-align: center;
         z-index: 99999;
         padding-bottom: 20px;
-        margin-top: 18px;
+        /* margin-top: 18px; */
         left: 32%;
     }
 
@@ -428,7 +428,12 @@
     h1 {
         font-size: 40px
     }
-
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: visible !important;
+        left: -15px;
+    }
     .home-header .handcrafted {
         font-size: 60px;
         margin-top: 30px;
@@ -594,14 +599,19 @@
     .header .nav-item {
         padding-right: 34px
     }
-
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: visible !important;
+        left: -15px;
+    }
     .logo a,
     .mobi-logo a {
         font-size: 29px
     }
-
+  
     .btn-primary.gold {
-        padding: 10px 17px;
+        /* padding: 10px 17px; */
         width: 100%;
         position: relative;
         left: 0;
